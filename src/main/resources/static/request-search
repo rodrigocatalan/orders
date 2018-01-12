@@ -1,0 +1,6 @@
+curl --request POST \
+  --url http://localhost:8080/orders/search \
+  --header 'cache-control: no-cache' \
+  --header 'content-type: application/json' \
+  --header 'postman-token: 8285949a-97d8-2a8d-fee5-9cdee2c807a0' \
+  --data '{\n    "id": 1,\n    "ref": "ref#1",\n    "generetedAt": 1515784448000,\n    "productName": "produto verde",\n    "productValue": 2.39,\n    "amount": 10,\n    "clientId": 1,\n    "total": null\n}'

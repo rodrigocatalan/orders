@@ -1,0 +1,6 @@
+curl --request POST \
+  --url http://localhost:8080/orders \
+  --header 'cache-control: no-cache' \
+  --header 'content-type: application/json' \
+  --header 'postman-token: 871b89ce-f86d-93a7-eaa0-c78046fb0c13' \
+  --data '{\n	"orders": [\n		{\n		    "id": 3,\n		    "ref": "r3",\n		    "generetedAt": 1515771716000,\n		    "productName": "p-namex",\n		    "productValue": 2.00,\n		    "amount": 2,\n		    "clientId": 4346\n		  },{\n		    "id": 4,\n		    "ref": "r4",\n		    "generetedAt": 1515771716000,\n		    "productName": "p-namex",\n		    "productValue": 1.00,\n		    "amount": 5,\n		    "clientId": 4346\n		  },{\n		    "id": 5,\n		    "ref": "rse4",\n		    "generetedAt": 1515771716000,\n		    "productName": "p-namex",\n		    "productValue": 1,\n		    "amount": 12,\n		    "clientId": 4346\n		  }\n		]\n}'
